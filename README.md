@@ -11,13 +11,13 @@ This is a simple Ruby application that displays a sentence on the main page. Thi
 To clone the repository, use the following command:
 
 ```bash
-git clone https://github.com/Mates182/RB.PracticeTask.git
+git clone https://github.com/EstebanASM/APP.RB.git
 ```
 
 Navigate to the project directory:
 
 ```bash
-cd RB.PracticeTask
+cd APP.RB
 ```
 
 ### Running the Application Locally (Without Docker)
@@ -26,29 +26,31 @@ cd RB.PracticeTask
 - [Ruby](https://www.ruby-lang.org/en/) and [Rails](https://rubyonrails.org/) must be installed on your machine.
 
 #### Running the Application
-1. Inside the project directory, install the required gems:
+1. If we don't have Bundler, install it:
+
+```bash
+gem install bundler
+
+```
+2. Inside the project directory, install the required gems:
 
 ```bash
 bundle install
 ```
 
-2. Start the Rails server:
+3. Start the program:
 
 ```bash
-rails server
+ruby app.rb
 ```
 
 3. Access the application in your browser at:
 
 ```
-http://localhost:3000
+http://localhost:8087
 ```
 
 ### Running the Application with Docker
 
-To run the application with Docker, visit the Docker Hub Repository of this project: [mates182/rb_practicetask on Docker Hub](https://hub.docker.com/repository/docker/mates182/rb_practicetask)
-
-
-## Contributing  
-Contributions, issues, and feature requests are welcome! Feel free to check out the [issues page](https://github.com/Mates182/RB.PracticeTask/issues) if you'd like to contribute. 
+To run the application with Docker, visit the Docker Hub Repository of this project: [estebanandres/helloruby on Docker Hub](https://hub.docker.com/repository/docker/estebanandres/helloruby/general)
 

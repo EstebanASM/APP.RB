@@ -44,7 +44,7 @@ bundle install
 ruby app.rb
 ```
 
-3. Access the application in your browser at:
+4. Access the application in your browser at:
 
 ```
 http://localhost:8087
